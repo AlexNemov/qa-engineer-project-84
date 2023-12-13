@@ -16,7 +16,7 @@ test-cases:
     Проверка возможности добавлять товар в корзину и просматривать
     содержимое корзины.
   status: pass
-
+  
 - summary: |
     Удаление товара из корзины.
   status: pass
@@ -24,15 +24,15 @@ test-cases:
 - summary: |
     Оформление заказа.	
   status: pass
-
+  
 - summary: |
     Проверка фильтра по категории.
   status: pass
-
+  
 - summary: |
     Проверка поиска по ключевому слову.
   status: fail
-
+  
 - summary: |
     Проверка фильтра по цене.
   status: fail
@@ -40,7 +40,7 @@ test-cases:
 - summary: |
     Просмотр имеющихся в наличии товаров.
   status: pass
-
+  
 - summary: |
     Просмотр отсутствующих в наличии товаров.
   status: pass
@@ -48,9 +48,9 @@ test-cases:
 - summary: |
     Проверка локализации интернет-магазина.
   status: fail
-
+  
 - summary: |
     Проверка мобильной версии.
   status: fail
-
+  
 bugreports: []
