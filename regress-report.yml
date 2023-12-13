@@ -20,47 +20,47 @@
   status: pass
 
 ---
-- Summary: |
+- summary: |
     Удаление товара из корзины.
   status: pass
   
 ---
-- Summary: |
+- summary: |
     Оформление заказа.	
   status: pass
 
 ---
-- Summary: |
+- summary: |
     Проверка фильтра по категории.
- status: pass
+  status: pass
  
 ---
-- Summary: |
+- summary: |
     Проверка поиска по ключевому слову.
   status: fail
 
 ---
-- Summary: |
+- summary: |
     Проверка фильтра по цене.
   status: fail
   
 ---
-- Summary: |
+- summary: |
     Просмотр имеющихся в наличии товаров.
   status: pass
 
 ---
-- Summary: |
+- summary: |
     Просмотр отсутствующих в наличии товаров.
   status: pass
   
 ---
-- Summary: |
+- summary: |
     Проверка локализации интернет-магазина.
 status: fail
 
 ---
-- Summary: |
+- summary: |
     Проверка мобильной версии.
   status: fail
 
