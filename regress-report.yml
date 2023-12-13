@@ -57,7 +57,7 @@
 ---
 - summary: |
     Проверка локализации интернет-магазина.
-status: fail
+  status: fail
 
 ---
 - summary: |
