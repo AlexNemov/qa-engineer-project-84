@@ -1,56 +1,96 @@
 ---
-test-cases:
 - summary: |
-    Проверка пагинации каталога 
-  status: pass    
-  
+    Переход на следующую страницу.
+  status: pass
+
+- summary: |
+    Переход на предыдущую страницу.
+  status: pass
+    
 - summary: |
     Проверка карточки товара.
   status: pass
-  
+    
 - summary: |
     Проверка бейджа на иконке корзины.
   status: pass
-  
+    
 - summary: |
     Проверка возможности добавлять товар в корзину и просматривать
     содержимое корзины.
+ status: pass
+    
+- summary: |
+    Правильное отображение нескольких лотов товара в корзине.
   status: pass
-  
+
+- summary: |
+    Правильное отображение нескольких товаров в корзине.
+  status: pass
+    
 - summary: |
     Удаление товара из корзины.
   status: pass
-  
+    
 - summary: |
-    Оформление заказа.	
+    Оформление заказа.
   status: pass
-  
+
+- summary: |
+    Оплата заказа.
+  status: fail
+
 - summary: |
     Проверка фильтра по категории.
   status: pass
-  
+
+- summary: |
+    Проверка перехода по хэштегу.
+  status: pass
+    
 - summary: |
     Проверка поиска по ключевому слову.
+  status: pass
+
+- summary: |
+    Проверка поиска по несуществующему ключевому слову. 
   status: fail
-  
+
+- summary: |
+    Проверка поиска по ключевому слову из описания товара. 
+  status: fail
+    
 - summary: |
     Проверка фильтра по цене.
-  status: fail
-  
+  requirement: |
+    status: fail
+
+- summary: |
+    Проверка фильтра по цене при отсутствии товаров в заданном диапазоне.
+  status: pass
+    
 - summary: |
     Просмотр имеющихся в наличии товаров.
-  status: pass
-  
+ status: pass
+    
 - summary: |
     Просмотр отсутствующих в наличии товаров.
-  status: pass
-  
+  status: fail
+    
 - summary: |
     Проверка локализации интернет-магазина.
   status: fail
-  
+    
 - summary: |
     Проверка мобильной версии.
+  status: fail
+
+- summary: |
+    Проверка ответа на запрос открытия карточки товара.
+  status: pass
+
+- summary: |
+    Проверка запроса на оформление заказа. 
   status: fail
   
 bugreports: []
