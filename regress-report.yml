@@ -2,7 +2,7 @@
 - summary: |
     Переход на следующую страницу.
   status: pass
-
+  
 - summary: |
     Переход на предыдущую страницу.
   status: pass
@@ -35,15 +35,15 @@
 - summary: |
     Оформление заказа.
   status: pass
-
+  
 - summary: |
     Оплата заказа.
   status: fail
-
+  
 - summary: |
     Проверка фильтра по категории.
   status: pass
-
+  
 - summary: |
     Проверка перехода по хэштегу.
   status: pass
@@ -51,27 +51,26 @@
 - summary: |
     Проверка поиска по ключевому слову.
   status: pass
-
+  
 - summary: |
     Проверка поиска по несуществующему ключевому слову. 
   status: fail
-
+  
 - summary: |
     Проверка поиска по ключевому слову из описания товара. 
   status: fail
     
 - summary: |
     Проверка фильтра по цене.
-  requirement: |
-    status: fail
-
+  status: fail
+  
 - summary: |
     Проверка фильтра по цене при отсутствии товаров в заданном диапазоне.
   status: pass
     
 - summary: |
     Просмотр имеющихся в наличии товаров.
- status: pass
+  status: pass
     
 - summary: |
     Просмотр отсутствующих в наличии товаров.
@@ -84,11 +83,11 @@
 - summary: |
     Проверка мобильной версии.
   status: fail
-
+  
 - summary: |
     Проверка ответа на запрос открытия карточки товара.
   status: pass
-
+  
 - summary: |
     Проверка запроса на оформление заказа. 
   status: fail
